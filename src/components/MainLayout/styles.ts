@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
-export const MainLayoutWrapper = styled.div`
-  //padding: 0 15px;
-  //margin: 0 auto;
-  //max-width: 960px;
+export const MainLayoutWrapper = styled.div``
+
+export const ContainerContent = styled.div`
+  display: flex;
+  margin: 0 auto;
+  padding: 48px 15px 0;
+  max-width: 960px;
 `
